@@ -15,7 +15,7 @@ public class Bublesort_Accending {
         //	Proses Bubble Sort
         System.out.println("\nProses Bubble Sort secara Ascending:");
         // untuk mengeluarkan iterasi ke berapa
-        for (int a = 0; a < bilangan.length; a++) {
+        for (int a = 0; a < bilangan.length-4; a++) {
             //	Tampilkan proses Iterasi
             System.out.println("Iterasi " + (a + 1));
             // untuk menghilangkan barisan hasil / jika b = 0 dan b lebih kecil dari elemen
