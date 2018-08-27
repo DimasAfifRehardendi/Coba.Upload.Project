@@ -10,20 +10,20 @@ public class Bublesort_Accending {
         int[] bilangan = {50, 5, 44, 100, 76};
 
         //	Tampilkan bilangan
-        System.out.println("Bilangan sebelum di sorting Bubble Sort : " + Arrays.toString(bilangan));
+        System.out.println("\nBilangan sebelum di sorting Bubble Sort : " + Arrays.toString(bilangan));
 
         //	Proses Bubble Sort
         System.out.println("\nProses Bubble Sort secara Ascending:");
-        // untuk mengeluarkan literasi ke berapa
+        // untuk mengeluarkan iterasi ke berapa
         for (int a = 0; a < bilangan.length; a++) {
             //	Tampilkan proses Iterasi
             System.out.println("Iterasi " + (a + 1));
-            // untuk menghilangkan barisan hasil
-            for (int b = 0; b < bilangan.length - 1; b++) {
+            // untuk menghilangkan barisan hasil / jika b = 0 dan b lebih kecil dari elemen
+            for (int b = 0; b < bilangan.length-1; b++) {
                 if (bilangan[b] > bilangan[b + 1]) {
-                    //	proses pertukaran bilangan
+                    //	proses pertukaran bilangan / swap
                     int temp = bilangan[b];
-                    bilangan[b] = bilangan[b + 1    ];
+                    bilangan[b] = bilangan[b + 1];
                     bilangan[b + 1] = temp;
                 }
 
