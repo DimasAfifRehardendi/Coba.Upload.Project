@@ -13,7 +13,7 @@ public class Dynamic_Programing {
         System.out.println("Bilangan ke-: ");
         int n = scan.nextInt();
         
-        return 0;
+        return n;
     }
     
     private static BigInteger fibo(int n){
