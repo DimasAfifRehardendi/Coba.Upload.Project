@@ -21,6 +21,7 @@ public class Latihan1 {
         // test when the target is not in the array
         index = sequentialSearch(arr1, 53);
         System.out.println(index);
+        
     }
 
 }
