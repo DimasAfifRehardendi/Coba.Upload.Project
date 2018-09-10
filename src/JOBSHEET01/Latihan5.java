@@ -9,9 +9,9 @@ public class Latihan5 {
         }
     }
     public static void main(String[] args) {
-        System.out.println("Dimas Afif Rehardendi/X RPL 6/18/JELEK >peace<");
+        System.out.println("Dimas Afif Rehardendi/X RPL 6/1");
         Scanner kms = new Scanner(System.in);
-        System.out.println("Menghitung Faktorial Denagan Rekursif ");
+        System.out.println("Menghitung Faktorial Dengan Rekursif ");
         System.out.println();
         System.out.println("Masukan Bilangan");
         int jawab = kms.nextInt();
