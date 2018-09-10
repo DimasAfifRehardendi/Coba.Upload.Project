@@ -23,8 +23,8 @@ public class SelectionSort_Accending {
     public static void SelectionSort_Accending(int[] data){
         for(int x = 0; x < data.length; x++){
             int tampung = data[x];
-            for(int y = x; y < data.length; y++){
-                if(data[y] < data[x]){
+            for(int y = 0; y < data.length; y++){
+                if(data[y] > data[x]){
                     data[x] = data[y];
                     data[y] = tampung;
                     tampung = data[x];
