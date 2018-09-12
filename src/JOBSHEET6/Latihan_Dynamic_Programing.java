@@ -1,7 +1,7 @@
 package JOBSHEET6;
 import java.math.BigInteger;
 import java.util.Scanner;
-public class Dynamic_Programing {
+public class Latihan_Dynamic_Programing {
 
     private static void tampilJudul(String identitas) {
         System.out.println("identitas " + identitas);
